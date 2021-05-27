@@ -11,7 +11,7 @@ struct bstNode{
 
 //function to insert the nodes in the BST manner
 bstNode *insert(bstNode* root,int data){
-	//when the tree has no elementss
+	//when the tree has no elements or it has reached to an empty spot 
 	if( root == NULL ){
 		bstNode* newNode = new bstNode();
 		newNode -> left = NULL;
